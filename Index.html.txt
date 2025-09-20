@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Karimbekov - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Ali K.</div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Ali Karimbekov</h1>
+      <p class="hero-subtitle">Smart • Hard-working • Creative</p>
+      <p class="hero-description">Communication Student at International Islamic University Malaysia</p>
+      <div class="hero-badges">
+        <span class="badge"><i class="fas fa-graduation-cap"></i> Student</span>
+        <span class="badge"><i class="fas fa-lightbulb"></i> Innovator</span>
+        <span class="badge"><i class="fas fa-globe"></i> Global Citizen</span>
+      </div>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+    <div class="hero-image">
+      <div class="image-placeholder">
+        <i class="fas fa-user"></i>
+        <p>Your Photo Here</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Born on 1 January 2005 in Kyrgyzstan. Currently enrolled in International Islamic University Malaysia and majoring in Communication. Intended to join different clubs further.</p>
+          <p>I am passionate about effective communication strategies and how they shape our understanding of the world. My goal is to leverage my education and creativity to make a positive impact through strategic communication.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kuala Lumpur, Malaysia</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-university"></i>
+              <span>IIUM University</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-book"></i>
+              <span>Communication Major</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p><a href="mailto:karimbekov05@inbox.ru">karimbekov05@inbox.ru</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <h3>Phone</h3>
+          <p><a href="tel:+60179075822">+60 17 907 5822</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Location</h3>
+          <p>Kuala Lumpur, Malaysia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="copyright">&copy; 2025 Ali Karimbekov. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
